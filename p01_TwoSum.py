@@ -30,7 +30,8 @@ def TwoSum_v2(nums, target):
         index1 += 1
 
 
-nums = [-1,-2,-3,-4,-5]
-target = -8
-print(TwoSum(nums, target))
-print(TwoSum_v2(nums, target))
+if __name__ == '__main__':
+    nums = [-1,-2,-3,-4,-5]
+    target = -8
+    print(TwoSum(nums, target))
+    print(TwoSum_v2(nums, target))

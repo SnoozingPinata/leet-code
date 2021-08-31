@@ -29,13 +29,16 @@ class Solution:
         return temp_list_node
 
 
-l1_3 = ListNode(val=3)
-l1_2 = ListNode(val=4, next=l1_3)
-l1 = ListNode(val=2, next=l1_2)
 
-l2_3 = ListNode(val=4)
-l2_2 = ListNode(val=6, next=l2_3)
-l2 = ListNode(val=5, next=l2_2)
+if __name__ == '__main__':
+    # Creating the ListNode objects for the test.
+    l1_3 = ListNode(val=3)
+    l1_2 = ListNode(val=4, next=l1_3)
+    l1 = ListNode(val=2, next=l1_2)
 
-sol = Solution()
-print(sol.addTwoNumbers(l1, l2))
+    l2_3 = ListNode(val=4)
+    l2_2 = ListNode(val=6, next=l2_3)
+    l2 = ListNode(val=5, next=l2_2)
+
+    sol = Solution()
+    print(sol.addTwoNumbers(l1, l2))
