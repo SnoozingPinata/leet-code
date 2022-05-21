@@ -1,7 +1,6 @@
 
 # Runtime: 2552 ms, faster than 30.28% of Python3 online submissions for Two Sum.
 # Memory Usage: 14.9 MB, less than 80.65% of Python3 online submissions for Two Sum.
-
 def TwoSum(nums, target):
     length_of_nums = len(nums)
     for i in range(0, length_of_nums):
@@ -11,7 +10,6 @@ def TwoSum(nums, target):
                 return i, index
 
 
-# I expected this to be faster, but oh well...
 # Runtime: 4155 ms, faster than 16.17% of Python3 online submissions for Two Sum.
 # Memory Usage: 15 MB, less than 65.50% of Python3 online submissions for Two Sum.
 def TwoSum_v2(nums, target):
