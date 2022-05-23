@@ -1,5 +1,10 @@
 
 class Solution:
+    def get_substrings2(self, problem_string: str) -> list[str]:
+        sub_string_palindromes = []
+        for letter in problem_string:
+            pass
+
     def get_substrings(self, problem_string: str) -> list[str]:
         current_longest = 0
         sub_string_palindromes = []
